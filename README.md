@@ -34,6 +34,7 @@ Trabalho1 é uma programa escrito em Java que tem como objetivo mostrar todo o c
     tipoConta();
     
 ### Operações
+
 -sacar
 -depositar
 -transferir
@@ -43,8 +44,29 @@ Trabalho1 é uma programa escrito em Java que tem como objetivo mostrar todo o c
 
 ### Clonando repositório
 
+**No Windows**
+Faça o download do git no link: https://git-scm.com/download/win
+
+Após download, execute o instalador e dê **next next...* e por último finish.
+
+Crie uma pasta na Área de trabalho e abra, em uma parte "branca" clique com o direito do mouse e vá em GIT bash here.
+No GitBash digite:
+```sh
+$ git clone https://github.com/salmomascarenhas/Trabalho1.git
+```
+Faça o login com a sua conta na tela que irá aparecer (login e senha).
+
+Pronto, verifique a pasta escolhida o repositório.
+
+
 **No Unix/Linux**
-Crie uma pasta em seu computador, abra o terminal/shell.
+Baixe o Git abrindo o terminal e digitando:
+```sh
+$ apt-get install git
+```
+dê Enter.
+
+Crie uma pasta em seu computador, clique (botão direito) em uma parte vazia na Área de trabalho e abra o terminal/shell.
 Para criar a pasta, digite o comando:
 ```sh
 $ mkdir Github
@@ -59,32 +81,14 @@ Ainda no terminal, digite:
 ```sh
 $ git clone https://github.com/salmomascarenhas/Trabalho1.git
 ```
-Pronto!
-
-**No Windows**
-abra o Git Bash e crie uma pasta chamada Github.
-Pra criar a pasta, digite o comando:
-```sh
-$ mkdir Github
-```
-E dê Enter.
-Depois disso, para entrar na pasta que acabamos de criar, digite:
-```sh
-$ cd Github 
-```
-E dê Enter.
-Ainda no Git Bash e digite:
-```sh
-$ git clone https://github.com/salmomascarenhas/Trabalho1.git
-```
-Pronto!
+Pronto! Verifique a pasta, os arquivos do repositório estarão lá.
 
 
 
 
 ### Execução 
 **1ª forma de executar**
-Após clonar o repositório, dentro da pasta siga o diretório: **/Github/Trabalho1/dist/** e execute o arquivo **Trabalho1.jar**.
+Após clonar o repositório, dentro da pasta (que criou) siga o diretório: **/Github/Trabalho1/dist/** e execute o arquivo **Trabalho1.jar**.
 
 **2ª forma de executar (compilando)**
 Abra o NetBeans, clique em Arquivo/File. 
